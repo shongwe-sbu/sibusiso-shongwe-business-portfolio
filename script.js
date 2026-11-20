@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       formFeedback.className = 'form-feedback success';
-      formFeedback.innerHTML = `Thank you, <strong>${escapeHtml(name)}</strong>! Your inquiry for <strong>${escapeHtml(service)}</strong> has been recorded. You can also click <a href="mailto:shongwesibusiso071@icloud.com?subject=${encodeURIComponent('Website Inquiry: ' + service)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}">here to send directly via your email app</a>.`;
+      formFeedback.innerHTML = `Thank you, <strong>${escapeHtml(name)}</strong>! Your enquiry for <strong>${escapeHtml(service)}</strong> has been recorded. You can also click <a href="mailto:shongwesibusiso071@icloud.com?subject=${encodeURIComponent('Website Inquiry: ' + service)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}">here to send directly via your email app</a>.`;
       contactForm.reset();
     });
   }
